@@ -33,7 +33,14 @@ switch(Answer1) {
 
   alert (`${favColor} is such a nice color, I agree with your choice.`);
 
+  var objTraveler = {
+    name : 'Name',
+    age : 'age',
+  };
+
   var total= favNumber + age * house - birthday;
+
+  var sum = total / objTraveler.age;
 
   alert(`I sense that you, will have ${total} days of good luck.`);
 
